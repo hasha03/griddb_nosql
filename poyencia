@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <script>
+            function potencia(a,b)
+    {
+       if(b==0)
+           return 1; 
+       // Caso recursivo
+        else
+           return a * potencia(a,b-1);
+    }
+        var a = Number(prompt("Digitalize el primer numero: "));
+        var b = Number(prompt("Digitalize el segundo numero: "));
+        document.write("La potencia de "+a+"^("+b+") es: "+potencia(a,b));
+            </script>
+    </head>
+    <body>
+    </body>
+</html>
