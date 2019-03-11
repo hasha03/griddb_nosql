@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <script>
+    function factorial (nu) {
+	var total = 1; 
+	for (i=1; i<=nnu; i++) {
+		total = total * i; 
+	}
+	return total;       
+    }
+         var nro = Number(prompt("ingrese numero "));
+         
+         var fact = factorial(nro);
+         
+         document.write("El factorial de "+nro+" es: "+fact);
+            </script>    
+    </head>
+    <body>
+    </body>
+</html>
