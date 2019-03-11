@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8"/>
+        <script>
+        var arreglo =[5];
+        for (var i=0; i<5; i++){
+           arreglo[i] = Number(prompt("ingrese numero "+(i+1)));
+        }
+        var mayor = 0, menor = 0, promedio = 0;
+         for (var i=0; i<5; i++){
+             if(arreglo[i] > mayor){
+                 mayor = arreglo[i]; 
+             }
+             if(arreglo[i] < menor){
+                 menor = arreglo[i];
+             }
+         } 
+         document.write('El numero mayor es: '+mayor);
+         document.write('          El numero menor es: '+menor);
+        for (var i=0; i<5; i++){
+             promedio = arreglo[i] + promedio;  
+        }
+        document.write("                      El promedio es: "+promedio/5);  
+
+            </script>
+    </head>
+    <body>
+    </body>
+</html>
