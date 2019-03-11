@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <script>
+            function serie( n)
+    {
+        if (n==1)
+            return n;
+        else
+            return serie(n-1) + serie(n-2);
+    }
+        var tamaño = Number(prompt("Introduce el número de elementos a mostrar de la serie: "));
+        for(var i = 0; i<tamaño; i++)
+        {
+           document.write(serie(i)+",");
+       }
+            </script>
+    </head>
+    <body>
+    </body>
+</html>
